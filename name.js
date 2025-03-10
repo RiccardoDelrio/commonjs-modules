@@ -5,4 +5,4 @@ const fullName = (name, surname) => {
     }
     return nameObj
 }
-console.log(fullName("riccardo", "Delrio"));
+module.exports = fullName
