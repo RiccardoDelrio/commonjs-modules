@@ -1,8 +1,8 @@
-const fullName = (name, surname) => {
+const namefull = (name, surname) => {
     const nameObj = {
         firstName: name,
         lastName: surname,
     }
     return nameObj
 }
-module.exports = fullName
+module.exports = namefull
